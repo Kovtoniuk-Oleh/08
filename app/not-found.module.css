@@ -1,0 +1,22 @@
+.container {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #e63946;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.link {
+  font-size: 1rem;
+  color: #1d3557;
+  text-decoration: underline;
+}
