@@ -7,6 +7,12 @@ export interface Note {
   tag: string;
 }
 
+export type NewNoteData = {
+  title: string;
+  content: string;
+  tag: Tag;
+};
+
 const NoteTags = ['All', 'Todo', 'Work', 'Personal', 'Meeting', 'Shopping'] as const;
 
 export type Tags = typeof NoteTags;

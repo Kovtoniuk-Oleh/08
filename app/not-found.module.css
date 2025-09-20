@@ -1,6 +1,7 @@
 .container {
   text-align: center;
   padding: 4rem 2rem;
+  animation: fadeIn 0.4s ease-in-out;
 }
 
 .title {
@@ -19,4 +20,20 @@
   font-size: 1rem;
   color: #1d3557;
   text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.link:hover {
+  color: #457b9d;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

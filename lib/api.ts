@@ -1,5 +1,5 @@
 import axios from 'axios';
-import type { Note, Tag } from '../types/note';
+import type { Note, Tag, NewNoteData } from '../types/note';
 
 axios.defaults.baseURL = 'https://notehub-public.goit.study/api/';
 axios.defaults.headers.common['Authorization'] = `Bearer ${process.env.NEXT_PUBLIC_NOTEHUB_TOKEN}`;
@@ -30,12 +30,8 @@ export const fetchNotes = async (
   return data;
 };
 
-export const createNote = async (title: string, content: string, tag: Tag): Promise<Note> => {
-  const { data } = await axios.post<Note>('notes', {
-    title,
-    content,
-    tag,
-  });
+export const createNote = async (noteData: NewNoteData): Promise<Note> => {
+  const { data } = await axios.post<Note>('notes', noteData);
   return data;
 };
 

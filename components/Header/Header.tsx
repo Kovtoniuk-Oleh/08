@@ -18,8 +18,11 @@ const Header = () => {
               Home
             </Link>
           </li>
-          <li className={css.navigationItem}>
+          {/* <li className={css.navigationItem}>
             <TagsMenu categories={categories} />
+          </li> */}
+          <li className={css.navigationItem}>
+            <TagsMenu />
           </li>
         </ul>
       </nav>
