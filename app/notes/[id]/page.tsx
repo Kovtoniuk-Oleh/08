@@ -38,7 +38,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
           alt: note.title,
         },
       ],
-      creator: 'github.com/neuropunk87',
+      creator: 'github.com/Kovtoniuk-Oleh',
     },
   };
 }

@@ -36,7 +36,7 @@ export const metadata: Metadata = {
         alt: 'NoteHub - Share Notes Instantly Online',
       },
     ],
-    creator: 'github.com/neuropunk87',
+    creator: 'github.com/Kovtoniuk-Oleh',
   },
 };
 

@@ -15,11 +15,11 @@ const roboto = Roboto({
 export const metadata: Metadata = {
   title: 'NoteHub - Share Notes Instantly Online',
   description:
-    'Write, publish, and share notes instantly with Notehub. A simple and fast way to make your notes public with just one click. By @neuropunk87',
+    'Write, publish, and share notes instantly with Notehub. A simple and fast way to make your notes public with just one click. By @Kovtoniuk-Oleh',
   openGraph: {
     title: 'NoteHub - Share Notes Instantly Online',
     description:
-      'Write, publish, and share notes instantly with Notehub. A simple and fast way to make your notes public with just one click. By @neuropunk87',
+      'Write, publish, and share notes instantly with Notehub. A simple and fast way to make your notes public with just one click. By @Kovtoniuk-Oleh',
     siteName: 'NoteHub',
     type: 'website',
     images: [
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'NoteHub - Share Notes Instantly Online',
     description:
-      'Write, publish, and share notes instantly with Notehub. A simple and fast way to make your notes public with just one click. By @neuropunk87',
+      'Write, publish, and share notes instantly with Notehub. A simple and fast way to make your notes public with just one click. By @Kovtoniuk-Oleh',
     images: [
       {
         url: 'https://ac.goit.global/fullstack/react/notehub-og-meta.jpg',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
         alt: 'NoteHub - Share Notes Instantly Online',
       },
     ],
-    creator: 'github.com/neuropunk87',
+    creator: 'github.com/Kovtoniuk-Oleh',
   },
 };
 
