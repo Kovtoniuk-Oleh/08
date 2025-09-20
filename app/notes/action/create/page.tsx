@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import NoteForm from '@/components/NoteForm/NoteForm';
 import { Tags } from '@/types/note';
 import css from './CreateNote.module.css';
-
+// import css from './CreateNote.module.css';
 export const metadata: Metadata = {
   title: 'NoteHub - Share Notes Instantly Online',
   description:
